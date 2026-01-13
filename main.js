@@ -1,6 +1,5 @@
 document.getElementById("calcola").addEventListener("click", function () {
 
-
     let km = Number(document.getElementById("km").value);
     let eta = Number(document.getElementById("eta").value);
 
@@ -12,7 +11,8 @@ document.getElementById("calcola").addEventListener("click", function () {
         prezzo = prezzo * 0.6;
     }
 
-    console.log("Il prezzo del biglietto è: €" + prezzo.toFixed(2));
+    document.getElementById("risultato").innerHTML =
+        "il prezzo del biglietto è: €" + prezzo.toFixed(2);
 
 
 });

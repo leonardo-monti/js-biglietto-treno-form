@@ -1,5 +1,7 @@
 document.getElementById("calcola").addEventListener("click", function () {
 
+    let nome = document.getElementById("nome").value;
+    let cognome = document.getElementById("cognome").value;
     let km = Number(document.getElementById("km").value);
     let eta = Number(document.getElementById("eta").value);
 
@@ -12,7 +14,6 @@ document.getElementById("calcola").addEventListener("click", function () {
     }
 
     document.getElementById("risultato").innerHTML =
-        "il prezzo del biglietto è: €" + prezzo.toFixed(2);
-
-
+        `Biglietto per: ${nome} ${cognome} 
+        Prezzo: € ${prezzo.toFixed(2)}`;
 });

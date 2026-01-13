@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#biglietto {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px dashed #af4c4c;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #e6ffe6;
+}

@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biglietto Treno</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Trenitalia</h1>
 
-    <input type="number" id="km" placeholder="Km da percorrere">
-    <input type="number" id="eta" placeholder="Età">
-    <button id="calcola">Calcola</button>
-    <p id="risultato"></p>
+    <div class="container">
+        <h1>Trenitalia</h1>
+        <input type="number" id="km" placeholder="Km da percorrere">
+        <input type="number" id="eta" placeholder="Età">
+        <button id="calcola">Calcola</button>
+        <div id="biglietto">
+            <p id="risultato"></p>
+        </div>
+    </div>
     <script src="./main.js"></script>
 
 

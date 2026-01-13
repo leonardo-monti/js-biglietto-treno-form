@@ -13,4 +13,6 @@ document.getElementById("calcola").addEventListener("click", function () {
     }
 
     console.log("Il prezzo del biglietto è: €" + prezzo.toFixed(2));
+
+
 });
